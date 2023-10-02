@@ -27,3 +27,15 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+.slider {
+  background-color: rgb(0, 0, 107);
+  padding: 50px;
+}
+
+.contentSlider {
+  display: flex;
+  justify-content: center;
+  background-color: darkorchid;
+  padding: 200px;
+}
