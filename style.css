@@ -7,8 +7,9 @@ body {
 }
 
 .main {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  display: flex;
 }
 
 .menu {
@@ -28,6 +29,9 @@ body {
   text-align: center;
 }
 
+.menu {
+}
+
 .slider {
   background-color: rgb(0, 0, 107);
   padding: 50px;
@@ -38,4 +42,55 @@ body {
   justify-content: center;
   background-color: darkorchid;
   padding: 200px;
+}
+
+.space {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.block-1 {
+  flex-basis: 60%;
+  background-color: rgb(25, 0, 255);
+}
+.block-2 {
+  flex-basis: 40%;
+  background-color: rgb(255, 110, 243);
+}
+.block-3 {
+  flex-basis: 100%;
+  background-color: green;
+}
+.block-4 {
+  flex-basis: 30%;
+  background-color: antiquewhite;
+  border: 2px dashed white; /* Aggiungi bordo bianco */
+}
+.borderBlack {
+  border: 2px dashed black; /* Bordo tratteggiato nero */
+}
+
+.backBlack {
+  background-color: black;
+}
+.backGrey {
+  background-color: rgb(165, 164, 164);
+}
+.footer {
+  margin: 0px;
+  background-color: black;
+  padding: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.footerMenu {
+  background-color: rgb(0, 195, 255);
+  display: flex; /* or inline-flex */
+  justify-content: space-between;
+}
+
+.backButton {
+  padding-left: 10px;
+  padding-right: 10px;
 }
